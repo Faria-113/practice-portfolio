@@ -1,0 +1,39 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+#Skip-color{
+    color: mediumblue;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.half-width img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(19, 71, 245), rgb(122, 184, 235));
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+}
+#distance-from-link-button{
+    padding-bottom: 40px;
+}
+.skip-the-diet{
+    background-image: url(eat-healthy-main/images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
