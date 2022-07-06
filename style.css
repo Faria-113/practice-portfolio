@@ -8,7 +8,7 @@ h1{
 #Skip-color{
     color: mediumblue;
 }
-section{
+.flexible-section{
     display: flex;
     margin-bottom: 100px;
 }
@@ -44,4 +44,50 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+.text-in-center{
+    text-align: center;
+}
+#bottom-padding{
+    padding-bottom: 20px;
+}
+.recipe-item{
+    width: 40%;
+    margin-left: 5%; 
+    margin-right: 5%;   
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 70px;
+}
+.recipe-item img{
+    width: 100%;
+    border-radius: 70px;
+}
+.my-recipies{
+    background-image: url(eat-healthy-main/images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 2px;
+}
+.social-section{
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-between; 
+  box-shadow: 10px 10px 40px gray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 70px;
+  margin-top: 100px;
+}
+.footer{
+    text-align: center;
+}
+#Eat-color{
+    color: rgb(111, 7, 230);
 }
