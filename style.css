@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -30,10 +31,17 @@ section{
     color: white;
     font-weight: 700;
 }
-#distance-from-link-button{
+.distance-from-link-button{
     padding-bottom: 40px;
 }
 .skip-the-diet{
     background-image: url(eat-healthy-main/images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-me{
+    background-image: url(eat-healthy-main/images/shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
